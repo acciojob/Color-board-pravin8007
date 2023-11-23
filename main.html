@@ -7,32 +7,11 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	 <div class="container">
-        <!-- Create 800 boxes -->
-        <!-- You can generate these dynamically using JavaScript -->
-        <!-- For brevity, we'll create a few manually here -->
-        <div class="square"></div>
-        <div class="square"></div>
-        <!-- Repeat this for the remaining 798 boxes -->
-        <!-- You can generate these dynamically using a loop -->
-    </div>
+	 <div class="container" id="color-board">
+    <!-- Generate 800 boxes with JavaScript -->
+  </div>
 
     <script type="text/javascript" src="./script.js">
-		 const squares = document.querySelectorAll('.square');
-
-        // Add a hover effect to each square
-        squares.forEach(square => {
-            square.addEventListener('mouseenter', () => {
-                // Change the background color to lightblue on hover
-                square.style.backgroundColor = 'lightblue';
-
-                // Use setTimeout to revert the color after 1 second
-                setTimeout(() => {
-                    square.style.backgroundColor = 'lightgray';
-                }, 1000);
-            });
-        });
 </script>
 
 </body>
